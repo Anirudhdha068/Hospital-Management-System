@@ -23,7 +23,7 @@ All core screens are captured in *Screenshots* and listed below. :contentReferen
 ---
 
 ## 📸 Screenshots PDF
-![Hospital Management System Screenshots PDF](Screenshots)
+![Hospital Management System Screenshots PDF](Screenshots.pdf)
 
 ---
 
