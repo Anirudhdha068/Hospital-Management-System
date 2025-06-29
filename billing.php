@@ -44,12 +44,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $mail->isSMTP();
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'anirudhdha068@gmail.com';
-                $mail->Password = 'oefu slql oxgn ztco';
+                $mail->Username = 'Youre E-mail ID';
+                $mail->Password = 'Youre PassKey';
                 $mail->SMTPSecure = 'tls';
                 $mail->Port = 587;
 
-                $mail->setFrom('anirudhdha068@gmail.com', 'Hospital Management');
+                $mail->setFrom('Youre E-mail ID', 'Hospital Management');
                 $mail->addAddress($email, $full_name);
 
                 $mail->isHTML(true);
