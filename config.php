@@ -1,14 +1,3 @@
-<!-- in my Sql perform following steps 
-1. create database "hms"
-command-: create database auth;
-2.Create table "users" with Query 
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
-) -->
 <?php
 $host="localhost";
 $username="root";
