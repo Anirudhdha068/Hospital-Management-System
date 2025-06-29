@@ -45,4 +45,22 @@ All core screens are captured in *Screenshots* and listed below. :contentReferen
 | User | [aaa@egmail.com](mailto:john.doe@example.com) | 1234567890 |
 | User | [bbb@egmail.com](mailto:john.doe@example.com) | 1234567890 |
 
+---
+
+### 🐬 Quick Database Setup (Laragon **or** XAMPP)
+
+1. **Start Laragon / XAMPP** → click **MySQL → Admin** to open **phpMyAdmin**  
+2. **Login credentials**  
+   - **Laragon:** `user root` / `pass root`  
+   - **XAMPP:** `user root` / **_no password_** (leave the field blank)  
+3. Left sidebar → **New** → type **`hms`** → **Create**  
+4. Open the new DB → **Import** tab → choose **`hms.sql`** → **Go** — done! ✅  
+
+> **XAMPP users:** the sample config files in this repo use `password=root`.  
+> Simply **delete the password** value or leave it empty to match XAMPP’s default.
+
+
+
+
+
 
