@@ -74,12 +74,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username   = 'anirudhdha068@gmail.com';
-            $mail->Password   = 'oefu slql oxgn ztco';
+                $mail->Username = 'Youre E-mail ID';
+                $mail->Password = 'Youre PassKey';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
-            $mail->setFrom('pt867987@gmail.com', 'HMS Admin');
+            $mail->setFrom('Youre E-Mail ID', 'HMS Admin');
             $mail->addAddress($appointment['email'], $appointment['name']);
 
             $mail->isHTML(true);
