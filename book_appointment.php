@@ -71,12 +71,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment']))
                 $mail->isSMTP();
                 $mail->Host       = 'smtp.gmail.com';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'anirudhdha068@gmail.com';
-                $mail->Password   = 'oefu slql oxgn ztco';
+                $mail->Username = 'Youre E-mail ID';
+                $mail->Password = 'Youre PassKey';
                 $mail->SMTPSecure = 'tls';
                 $mail->Port       = 587;
 
-                $mail->setFrom('anirudhdha00@gmail.com', 'Hospital Management');
+                $mail->setFrom('Youre E-Mail ID', 'Hospital Management');
                 $mail->addAddress($email, $name);
 
                 $mail->isHTML(true);
