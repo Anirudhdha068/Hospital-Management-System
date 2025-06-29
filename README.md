@@ -42,6 +42,7 @@ All core screens are captured in *Screenshots* and listed below. :contentReferen
 | Role    | Email                                               | Password   |
 | ------- | --------------------------------------------------- | ---------- |
 | Admin   | [admin@gmail.com.com](mailto:admin@hms.com)               | admin   |
-| User | [aa@egmail.com](mailto:john.doe@example.com) | 1234567890 |
+| User | [aaa@egmail.com](mailto:john.doe@example.com) | 1234567890 |
+| User | [bbb@egmail.com](mailto:john.doe@example.com) | 1234567890 |
 
 
