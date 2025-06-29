@@ -18,14 +18,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'anirudhdha068@gmail.com'; // 👈 Apna Gmail ID
-        $mail->Password   = 'oefu slql oxgn ztco';   // 👈 App Password (Not your Gmail password!)
+        $mail->Username = 'Youre E-mail ID';
+        $mail->Password = 'Youre PassKey';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
         // Sender & Receiver
         $mail->setFrom($email, $name); // From user
-        $mail->addAddress('anirudhdha068@gmail.com', 'HMS'); // 👈 Jis email pe message receive karna hai
+        $mail->addAddress('xyz@gmail.com', 'HMS'); // 👈 Jis email pe message receive karna hai
 
         // Content
         $mail->isHTML(true);
