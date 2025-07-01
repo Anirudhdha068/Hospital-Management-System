@@ -253,7 +253,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         const options = {
-            key: "rzp_test_FUijwPsI1t6dUR", //Razorpay Key ID
+            key: "Your Razorpay Key ID", //Razorpay Key ID
             amount: amount * 100,
             currency: "INR",
             name: "Hospital Management",
